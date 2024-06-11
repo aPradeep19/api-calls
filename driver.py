@@ -31,3 +31,6 @@ if pet_color:
       st.stop()
     response = m.generate_pet_name(animal_type, pet_color, openai_api_key)
     st.text(response['pet_name'])
+    
+    
+    
